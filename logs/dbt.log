@@ -1,0 +1,44 @@
+[0m12:43:59.748087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E894A087C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E896B11550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E897501BB0>]}
+
+
+============================== 12:43:59.871113 | e20b2a82-2535-4a76-bbe6-763ebeb42f37 ==============================
+[0m12:43:59.871113 [info ] [MainThread]: Running with dbt=1.8.6
+[0m12:43:59.873114 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Vinod\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init learn-dbt', 'send_anonymous_usage_stats': 'True'}
+[0m12:43:59.908115 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Vinod/.dbt')}
+[0m12:43:59.909117 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:44:19.122720 [debug] [MainThread]: Starter project path: c:\vinod\awsdataengineering\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m12:44:19.153950 [info ] [MainThread]: 
+Your new dbt project "learn_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:44:19.156949 [info ] [MainThread]: Setting up your profile.
+[0m12:44:19.160264 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m12:44:19.163267 [debug] [MainThread]: Command `dbt init` failed at 12:44:19.163267 after 19.59 seconds
+[0m12:44:19.164268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E894A087C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E894A42940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E894A42760>]}
+[0m12:44:19.165284 [debug] [MainThread]: Flushing usage events
+[0m12:59:33.757806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB52687C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB7CE80A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB7D60BB0>]}
+
+
+============================== 12:59:33.766809 | a511705a-9e2b-4dca-b82a-e39f7a06d2b4 ==============================
+[0m12:59:33.766809 [info ] [MainThread]: Running with dbt=1.8.6
+[0m12:59:33.769809 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Vinod\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:59:33.836815 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\Vinod\.dbt
+[0m12:59:33.843814 [debug] [MainThread]: Command `dbt debug` succeeded at 12:59:33.842814 after 0.25 seconds
+[0m12:59:33.845814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB52687C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB7CE80A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB7D60160>]}
+[0m12:59:33.846814 [debug] [MainThread]: Flushing usage events
