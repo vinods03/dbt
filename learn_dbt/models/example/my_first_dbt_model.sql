@@ -9,7 +9,6 @@
 
 {{ config(materialized='table', alias='first_model',tags=['manual','non-critical']) }}
 
-
 with source_data as (
 
     select 1 as id, 'NY' as state, '2020-02-01 03:00:00.000'::timestamp as update_ts
@@ -22,3 +21,4 @@ with source_data as (
 
 select *
 from source_data
+
