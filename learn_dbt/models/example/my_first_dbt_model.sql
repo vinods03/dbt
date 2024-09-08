@@ -7,23 +7,18 @@
     Try changing "table" to "view" below
 */
 
-{{ config(materialized='table', alias='first_model') }}
+{{ config(materialized='table', alias='first_model',tags=['manual','non-critical']) }}
+
 
 with source_data as (
 
-    select 1 as id
+    select 1 as id, 'NY' as state, '2020-02-01 03:00:00.000'::timestamp as update_ts
     union all
-    select null as id
+    select null as id, 'CT' as state, '2020-01-01 00:00:00.000'::timestamp as update_ts
     union all
-    select 2 as id
+    select 4 as id, 'VT' as state, '2020-01-01 00:00:00.000'::timestamp as update_ts
 
 )
 
 select *
 from source_data
-
-/*
-    Uncomment the line below to remove records with null `id` values
-*/
-
--- where id is not null
