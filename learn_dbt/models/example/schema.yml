@@ -38,3 +38,18 @@ models:
 
   - name: dates
     description: "date dimension"
+
+sources:
+  - name: sample_source
+    database: snowflake_sample_data
+    schema: tpch_sf1
+    tables:
+      - name: customer
+        columns:
+        - name: c_custkey
+          tests:
+            - unique
+            - not_null
+      - name: orders
+      
+
